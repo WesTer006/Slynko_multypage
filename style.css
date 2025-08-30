@@ -1,45 +1,139 @@
-<html>
-    <head>
-        <title>Майнкрафт про броню</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Майнкрафт</h1>
-        </header>
-        <main>
-            <h1>Привіт я вам розповім про броню в майнкрафті</h1>
-            <section class="armor">
-                <article class="q">
-                    <h2  >Шкіряна броня</h2>
-                    <img src="https://learn.logikaschool.com/uploads/student/3303270/68acaa6b6522d.png" width="101" height="206"/>
-                    <p class="t">Вона дає 7 армор поінтів </p>
-                    <a href="https://youtu.be/xvFZjo5PgG0?list=RDxvFZjo5PgG0">більше</a>   
-                </article>
-                <article class="w">
-                    <h2>Залізна броня</h2>
-                    <img src="https://learn.logikaschool.com/uploads/student/3303270/68acab06d1cb8.png" width="101" height="206"/>
-                    <p class="y">Вона дає 11 армор поінтів</p>
-                    <a href="https://youtu.be/xvFZjo5PgG0?list=RDxvFZjo5PgG0">більше</a> 
-                </article>
-                <article class="e">
-                    <h2>діамантова броня</h2>
-                    <img src="https://learn.logikaschool.com/uploads/student/3303270/68acaff07a9e5.png" width="101" height="206"/>
-                    <p class="u">Вона дає 20 армор поінтів</p>
-                    <a href="https://youtu.be/xvFZjo5PgG0?list=RDxvFZjo5PgG0">більше</a> 
-                </article>
-                <article class="r">
-                    <h2>Незеритова броня</h2>
-                    <img src="https://learn.logikaschool.com/uploads/student/3303270/68acb02fbdf07.png" width="101" height="206"/>
-                    <p class="i">Вона дає 20 армор поінтів але вона прочніша в грі</p>
-                   <a   href="https://youtu.be/xvFZjo5PgG0?list=RDxvFZjo5PgG0">більше</a>
-                </article>
-            </section>
-            
-        </main>
-        <footer>
-            <p>Ел.пошта я вам внушаю тут што то есть</p>
-            <p>Телефон 380+ 434-892-927</p>
-        </footer>
-    </body>
-</html>
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+   
+    
+}
+
+header {
+    
+}
+
+.button {
+    
+}
+
+nav {
+    
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+h1 {
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.info {
+   
+}
+
+article {
+   
+}
+
+.article-but {
+    
+}
+
+footer {
+background-color: blueviolet;
+}
+
+footer a {
+    
+}
+
+footer p {
+}
+
+header h1{
+ text-align: center;
+ background-color: greenyellow;
+ color: black;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+main {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+main a{
+text-decoration: none;
+color: aquamarine;
+}
+
+
+
+.q{
+float: left;
+
+}
+
+
+
+.w{
+float: left;
+
+}
+
+
+.e{
+float: left;
+
+}
+
+
+
+.r{
+float: left;
+
+}
+
+
+.armor{
+ display: flex;
+ justify-content: center;
+
+
+}
+
+
+
+
+
+
+.t{
+width: 101px;
+}
+
+
+.y{
+ width: 101px;
+}
+
+
+.u{
+ width: 101px;
+}
+
+
+.i{
+ width: 101px;
+}
+
+
+main h2 {
+margin: 10px;
+
+}
